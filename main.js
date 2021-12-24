@@ -38,8 +38,7 @@ Webcam.set({
 
 function take_snapshot() {
     Webcam.snap(function(data_uri){
-        document.getElementById("picture").innerHTML = "<img id='pic_t' src='"+ data_uri +"'>";
-        
+        document.getElementById("picture").innerHTML = '<img id="pic_t" src="'+ data_uri +'">';
     });
 
 }
